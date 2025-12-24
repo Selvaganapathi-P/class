@@ -1,0 +1,48 @@
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end !important;
+}
+
+.child{
+    /* height: 40px !important;
+    width: 40px !important; */
+    animation: dodge 2s ease-in-out 1;
+    
+
+}
+
+img{
+    height: 200px;
+    width: 420px;
+}
+
+@keyframes dodge {
+
+    0%{
+        transform: translateX(500px) ;
+       background-color: aqua;
+      
+    }
+    25%{
+        transform: translateX(500px) translateY(-350px) scale(0.2);
+        background-color: aquamarine;
+       
+    }
+    50%{
+        transform: translateX(250px);
+        background-color: azure;
+       
+    }
+    75%{
+        transform:  translateY(-350px) scale(1.4);
+        background-color: blue;
+     
+    }
+    100%{
+        transform: translateX(0px);
+        background-color: brown;
+        
+    }
+}
