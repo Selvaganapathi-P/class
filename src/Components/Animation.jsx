@@ -15,6 +15,13 @@ const Animation = () => {
                 </div>
 
             </div>
+            <div className="Parent">
+                <div className="Child">
+                    <h1>Test</h1>
+
+                </div>
+
+            </div>
 
         </div>
     )
